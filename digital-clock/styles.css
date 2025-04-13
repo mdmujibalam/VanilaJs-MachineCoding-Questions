@@ -1,0 +1,12 @@
+.main-div{
+    margin:15px 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.section{
+    display: flex;
+}
+.data{
+    padding:3px;
+}
