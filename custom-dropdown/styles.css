@@ -1,0 +1,24 @@
+.main-div{
+    border:1px solid black;
+    width:200px;
+    margin: 10px 20px;
+}
+
+.label{
+    padding:5px;
+}
+
+.options{
+    list-style: none;
+    margin:0px;
+    padding:5px;
+    display:none;
+}
+
+.options li{
+    cursor:pointer;
+}
+
+.options li:hover{
+    background-color: antiquewhite;
+}

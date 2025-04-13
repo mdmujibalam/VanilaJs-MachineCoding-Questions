@@ -1,0 +1,15 @@
+#formContanier{
+    display: flex;
+    flex-direction: column;
+    padding:30px;
+}
+
+.formItem{
+    display: flex;
+    flex-direction: column;
+    padding:5px;
+}
+
+#submitButton{
+    margin: 10px 5px;
+}

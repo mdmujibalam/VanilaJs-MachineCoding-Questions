@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form with validation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form action="" id ="formContainer">
+        <div class="formItem">
+          <label for="fullName">Fullname</label>
+          <input type="text" id="fullName" >
+          <span id="fullNameError" class="error"></span>
+        </div>
+        
+
+        <div class="formItem">
+          <label for="mobileNo">Mobile Number</label>
+          <input type="text" id="mobileNo">
+          <span id="mobileNoError" class="error"></span>
+        </div>
+
+        <div class="formItem">
+          <label for="email">Email</label>
+          <input type="email" id="email">
+          <span id="emailError" class="error"></span>
+        </div>
+
+        <div class="formItem">
+          <label for="address">Address</label>
+          <textarea name="address" id="address"></textarea>
+          <span id="addressError" class="error"></span>
+        </div>
+
+        <input type="submit" id="submitButton">
+        
+    </form>
+    
+</body>
+<script src="script.js"></script>
+</html>
