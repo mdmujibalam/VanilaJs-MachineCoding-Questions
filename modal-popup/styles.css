@@ -1,0 +1,28 @@
+.top-section{
+    margin:20px 10px;
+}
+
+.modal-section{
+    display:none; /* This will not be visible*/
+    width:300px;
+    height: 200px;
+    border: 1px solid black;
+    margin:20px 10px;  
+}
+
+.modal-section.active{
+    display:block;
+}
+
+#header-section{
+    display: flex;
+    justify-content: space-around;
+    background-color: grey;
+}
+
+#close-modal-btn{
+    width:80px;
+    height: 40px;
+    margin-top: 7px;
+   
+}
