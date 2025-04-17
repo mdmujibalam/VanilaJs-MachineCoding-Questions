@@ -1,0 +1,51 @@
+#navbar-div {
+  width: 400px;
+  padding: 5px;
+}
+
+#navbar-ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+#navbar-ul li {
+  cursor: pointer;
+}
+
+#hamburger-div {
+  display: none;
+}
+
+#hamburgerItems {
+  display: none;
+}
+
+#hamburger-ul {
+  display: none;
+}
+
+
+
+@media (max-width: 500px) {
+  #navbar-div {
+    display: none;
+  }
+
+  #hamburger-div {
+    display: block;
+    margin: 20px 30px;
+  }
+
+  #hamburger-ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    height: 200px;
+    justify-content: space-around;
+  }
+
+  #hamburger-ul li {
+    cursor: pointer;
+  }
+}
