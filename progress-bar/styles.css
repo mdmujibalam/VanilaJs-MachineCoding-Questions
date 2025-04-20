@@ -1,0 +1,12 @@
+#full-bar{
+    width:70vw;
+    height: 5vh;
+    background-color: lightgrey;
+    margin: 20px 40px;
+}
+
+#current-progress{
+    background-color: pink;
+    width:10%;
+    height: 100%;
+}
