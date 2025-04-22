@@ -1,0 +1,12 @@
+.main-div{
+    margin:5px 15px;
+    display: flex;
+    width: 150px;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.starItems{
+    font-size: 30px;
+}
+
