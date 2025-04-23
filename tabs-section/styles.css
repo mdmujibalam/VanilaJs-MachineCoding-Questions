@@ -1,0 +1,21 @@
+.main-div{
+    margin: 20px 30px;
+    cursor: pointer;
+}
+
+#tab-section{
+    display: flex;
+    /* width: 400px; */
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.tab{
+    width:60px;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 40px;
+    text-align: center;
+    align-content: center;
+}
