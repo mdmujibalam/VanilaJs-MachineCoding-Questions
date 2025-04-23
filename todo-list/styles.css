@@ -1,0 +1,13 @@
+.main-div{
+    margin:10px 20px;
+}
+
+#header-section{
+    margin-bottom: 20px;
+}
+
+#items-sections{
+    display: flex;
+    flex-direction: column;
+    
+}
