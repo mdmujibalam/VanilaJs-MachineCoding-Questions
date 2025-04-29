@@ -1,0 +1,49 @@
+.toogle-div {
+  margin: 10px;
+  width: 200px;
+  text-align: center;
+}
+
+.toogleBtn {
+  cursor: pointer;
+}
+
+.card {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.title {
+  font-weight: 800;
+  color: black;
+}
+
+.desc {
+  margin-top: 10px;
+  color: black;
+}
+
+.card.dark {
+  background-color: grey;
+  border: 1px solid white;
+}
+
+.title.dark,
+.desc.dark {
+  color: white;
+}
+
+.dark {
+  background-color: grey;
+}
+
+.light {
+  background-color: white;
+}
+
+#toogle-theme {
+  cursor: pointer;
+}
