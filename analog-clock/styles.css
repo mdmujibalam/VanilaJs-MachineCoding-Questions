@@ -1,0 +1,38 @@
+#hours {
+  background-color: red;
+  height: 120px;
+  width: 4px;
+}
+
+#mins {
+  background-color: blue;
+  height: 140px;
+  width: 3px;
+}
+
+#seconds {
+  background-color: black;
+  height: 160px;
+  width: 2px;
+}
+
+.data {
+  position: absolute;
+  left: 50%;
+  bottom: 50%;
+  width: 350px;
+  height: 350px;
+  transform: translate(-50%, -50%);
+  transform-origin: bottom center;
+}
+
+#clock-section {
+  width: 350px;
+  height: 350px;
+  background-color: skyblue;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
